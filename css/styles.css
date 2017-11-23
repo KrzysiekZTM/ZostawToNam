@@ -1,0 +1,140 @@
+/*Global*/
+
+*{
+	transition: 0.4s all;
+}
+
+/*Typo*/
+
+h1, h2, h3, h4, h5, h6{
+	font-family: Apropal !important;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.btn{
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.02em;
+	font-size: 14px;
+	font-weight: 700;
+	padding: .7rem 1.6rem;
+}
+
+.btn-ztm{
+	background-color: #fc4e5e;
+	color: white;
+	border-radius: 5px;
+}
+
+.btn-ztm:hover{
+	background-color: #db3645;
+	color: white;
+}
+
+.newsletter-btn{
+	font-family: Apropal;
+	background-color: #fff;
+	text-transform: none;
+	font-size: 20px;
+	padding:.4rem 1.6rem;
+	border-radius: 0 5px 5px 0;
+}
+
+.newsletter-input{
+	font-size: 20px; 
+	padding: .4rem 1.6rem; 
+	border-radius: 5px 0 0 5px; 
+	border:solid 1px #fff;
+	font-family: 'Roboto', sans-serif;
+}
+
+.newsletter-input::placeholder{
+	font-size: 17px;
+	font-family: 'Roboto', sans-serif;
+	color:#6b6b75;
+}
+
+.h1, h1{
+	font-size: 4rem;
+}
+
+.dark-grey{
+	color:#3d3d49;
+}
+
+.light-grey{
+	color: #6b6b75;
+}
+
+.white{
+	color: #fff;
+}
+
+
+/*Nawigacja*/
+nav{
+	align-items: center;
+	justify-content: space-between;
+	font-family: Apropal !important;
+	height: 100px;
+}
+
+
+nav ul{
+	margin-bottom: 0;
+}
+
+nav ul li{
+	font-size: 18px;
+	color: #fff;
+}
+
+.sticky-nav{
+	position: fixed !important;
+	z-index: 1;
+	width: 100vw;
+	padding-left:40px;
+	padding-right: 40px;
+}
+
+
+/*Hero photo*/
+.hero-photo{
+	height: 100vh;
+	background-image: url('../img/hero-photo.jpg');
+	background-attachment: : fixed;
+	background-size: cover;
+	color: #fff;
+}
+
+.hero-photo li{
+	font-size: 16px;
+}
+
+/*list*/
+
+
+.li-bullet-after:after{
+
+	content:"*";
+	display: inline-block;
+	margin: 0 5px;
+
+}
+
+/*Margins*/
+
+.mt-100{
+	margin-top:100px;
+}
+
+.mb-100{
+	margin-bottom:100px;
+}
+
+
+
+
